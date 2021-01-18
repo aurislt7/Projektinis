@@ -1,0 +1,6 @@
+; This is a sample INI file. This entire line is a comment.
+  ; Blank lines are permitted.
+  Input_File_Name=Stuff.pov ;This sets the input file name
+  Output_File_Name="C:\Users\auris\Desktop\Informatics\7_semestras\Projektinis\Generated_Forests\Lapuociai\Vasara\"
+  +W80 +H60 ; Traditional +/- switches are permitted too
+  +V        ; Another switch

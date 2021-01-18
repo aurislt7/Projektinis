@@ -1,0 +1,10 @@
+FOR /L %%A IN (1, 1, 400) DO (
+  @REM pvengine.exe /render lapuociai.pov -V -GD -GR -GW Warning_Level=0 All_Console=Off +W80 +H60 +oC:\Users\auris\Desktop\Informatics\7_semestras\Projektinis\Generated_Forests\Lapuociai\Vasara\%%A DECLARE=seed_num=%%A DECLARE=season_num=0 DECLARE=forest_num=0
+  @REM pvengine.exe /render lapuociai.pov -V -GD -GR -GW Warning_Level=0 All_Console=Off +W80 +H60 +oC:\Users\auris\Desktop\Informatics\7_semestras\Projektinis\Generated_Forests\Lapuociai\Ruduo\%%A DECLARE=seed_num=%%A DECLARE=season_num=1 DECLARE=forest_num=0
+  @REM pvengine.exe /render lapuociai.pov -V -GD -GR -GW Warning_Level=0 All_Console=Off +W80 +H60 +oC:\Users\auris\Desktop\Informatics\7_semestras\Projektinis\Generated_Forests\Lapuociai\Ziema\%%A DECLARE=seed_num=%%A DECLARE=season_num=2 DECLARE=forest_num=0
+  @REM pvengine.exe /render lapuociai.pov -V -GD -GR -GW Warning_Level=0 All_Console=Off +W80 +H60 +oC:\Users\auris\Desktop\Informatics\7_semestras\Projektinis\Generated_Forests\Spygliuociai\Vasara\%%A DECLARE=seed_num=%%A DECLARE=season_num=0 DECLARE=forest_num=1
+  @REM pvengine.exe /render lapuociai.pov -V -GD -GR -GW Warning_Level=0 All_Console=Off +W80 +H60 +oC:\Users\auris\Desktop\Informatics\7_semestras\Projektinis\Generated_Forests\Spygliuociai\Ruduo\%%A DECLARE=seed_num=%%A DECLARE=season_num=1 DECLARE=forest_num=1
+  @REM pvengine.exe /render lapuociai.pov -V -GD -GR -GW Warning_Level=0 All_Console=Off +W80 +H60 +oC:\Users\auris\Desktop\Informatics\7_semestras\Projektinis\Generated_Forests\Spygliuociai\Ziema\%%A DECLARE=seed_num=%%A DECLARE=season_num=2 DECLARE=forest_num=1
+  pvengine.exe /render lapuociai.pov -V -GD -GR -GW Warning_Level=0 All_Console=Off +W80 +H60 +oC:\Users\auris\Desktop\Informatics\7_semestras\Projektinis\Generated_Forests\Spygliuociai\Pavasaris\%%A DECLARE=seed_num=%%A DECLARE=season_num=3 DECLARE=forest_num=1
+  pvengine.exe /render lapuociai.pov -V -GD -GR -GW Warning_Level=0 All_Console=Off +W80 +H60 +oC:\Users\auris\Desktop\Informatics\7_semestras\Projektinis\Generated_Forests\Lapuociai\Pavasaris\%%A DECLARE=seed_num=%%A DECLARE=season_num=3 DECLARE=forest_num=0
+)
